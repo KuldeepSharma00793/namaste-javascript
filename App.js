@@ -1,6 +1,6 @@
-/**
- * *
- * 
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+/** 
  * <div id="parent">
  *      <div id="child">
  *          <h1>I'm h1 Tag</h1>
@@ -13,10 +13,6 @@
  * </div>
  * 
  * To create siblings we have to wrap the childs inside the arrays and it will be said as arrays object
- * 
- * 
- * 
- * 
  */
 
 // Lets create Nested React element 
