@@ -65,9 +65,6 @@ console.log(parent); // this object is a ReactElement(object) => HTML(Browser un
 
 
 
-
-
-
 // Lets add some heading in root div
 
 const heading = React.createElement(
