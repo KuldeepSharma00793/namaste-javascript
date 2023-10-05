@@ -1,1 +1,1 @@
-#Namaste React
+#Namaste React course Episode 1

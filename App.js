@@ -45,16 +45,6 @@ const parent = React.createElement(
 
 
 
-
-
-
-
-
-
-
-
-
-
 const rootme = ReactDOM.createRoot(document.getElementById("rootme"));
 rootme.render(parent); // converts the object to HTML element then renders it
 console.log(parent); // this object is a ReactElement(object) => HTML(Browser understands)l
