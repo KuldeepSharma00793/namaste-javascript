@@ -1,7 +1,7 @@
 #Namaste React course Episode 1
 #Namaste React course Episode 2
 
-<!-- lets ignite our app -->
+<!-- Lecture Two lets ignite our app -->
 
 #Parcel host your app to the local server and refreshing the page automatically i.e.
 - HMR = Hot module replacement
@@ -30,12 +30,16 @@
 
 #Lets also install react dom package as well in our node_modules folder - npm install react-dom
 
-
-
 #why react app is faster ?
 - its not only about react it also about the other libraries such as parcel which makes our react app perform faster and give us the smooth experience.
 
-
-
 #for making our react app compatible with older browser versions
 - we will be using the browser lists inside the node_modules folder
+
+
+
+
+
+
+
+
