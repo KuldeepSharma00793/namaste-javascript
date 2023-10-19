@@ -4,6 +4,26 @@
 
 # We have created a Food ordering app below are the some learnings :
 
+
+
+/*
+* Header Component
+*   -Logo item
+*   -Nav Items
+* Body Component
+*    - Search component
+*    - Restaurants Container
+*       - Restuarants Cards
+*           - img, name of res, star rating, cuisines, delivery time etc
+* Footer Component
+*   - Copyright
+*  - Links
+*   - Address 
+*   -Contact
+*/
+
+
+
 - Props which are objects are basically the Arguments passed in the function component.
 
 - Eg : <Restaurant resName="abc" cuisine="north india" />
@@ -59,6 +79,13 @@
         </div>
     );
 };
+
+
+// styles are given as object in react
+
+// const styleCard = {
+//     backgroundColor: "#f0f0f0"
+// } 
 
 
 
