@@ -50,9 +50,9 @@ const RestaurantCard = (props)=>{
     return (
         <div className="res-card" style={{backgroundColor:"#f0f0f0"}}>
             <h3>{name}</h3>
-            <h4>{Cuisines.join(",")}</h4>
-            <h4>{costForTwo /10}</h4>
-            <h4>{avgRating}</h4>
+            <h3>{Cuisines.join(",")}</h3>
+            <h3>{costForTwo /10}</h3>
+            <h3>{avgRating}</h3>
         </div>
     );
 };
@@ -114,13 +114,13 @@ const Body = ()=>{
 
 
 const AppLayout = ()=>{
-    return (
+    return( 
         <div className="app">
             <Header />
-            <Body/>
+            <Body />
         </div>
-    );
-};
+    )
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<AppLayout />);

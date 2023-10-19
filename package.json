@@ -4,9 +4,10 @@
   "description": "This is namaste react by akshay saini",
   "main": "App.js",
   "scripts": {
-    "start" : "parcel index.html",
-    "build" : "parcel build index.html",
-    "test": "jest"
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "compile:sass" : "node-sass sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
@@ -20,11 +21,13 @@
   },
   "homepage": "https://github.com/KuldeepSharma00793/namaste-javascript#readme",
   "devDependencies": {
+    "node-sass": "^9.0.0",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "browsersList": [
     "last 2 versions"

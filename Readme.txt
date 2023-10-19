@@ -1,7 +1,7 @@
 -Package.json is a configuration for NPM and it will note all the dependencies such as version author any specific package and information about that package in this file.
 
 parcel : ^2.8.3 (carrot means there can be a minor version upgradable to like 2.8.4)
-~2.8.3 means it can be a major incrementing upgrade from 2.8.3 to 3.5.1.
+~ (Tilt symbol) 2.8.3 means it can be a major incrementing upgrade from 2.8.3 to 3.5.1.
 package.json can also have the exact version as well.
 
 -package-lock.json - keeps the track of exact version of all the dependency which is installed. whereas in package.json the carrot sign is there before parcle : ^2.3.8 so it can be upgraded to 2.3.9 as well.
