@@ -27,3 +27,53 @@ To import it, wrap it inside curly braces while import :
 
 # Always create a new file for new component and try to keep almost 100 lines of code in one component
 # if it's exceeding that then divide that component into two components.
+
+
+# React is fast as it doesn the dom manipulation efficiently, it works well with UI and data layer together.
+
+
+# Lets start using Hooks, so what is hooks
+-what is functional component at the end of day ie. a normal javascript function.
+- what is react element at the end of day, its a plain javascript object
+-similarly a hook is a normal javascript function which is given to us by react.
+
+
+# React Hooks
+(Normal JS utility function which facebook developers wrote it, they have written it in react)
+- Two very Important Hooks : 
+    -useState() : it's a utility function and used to generate superpowerful state variables in react.
+    -useEffect()
+
+- # Whenever a state variables updates react re-render the components.
+
+- # React uses Reconciliation alogrith which is also known as React fibre.
+
+# Virtual DOM is a representation of actual DOM.
+
+# Diff alogorithm is used to find the difference between previous virtual dom and current virtual dom.
+
+React Fibre Architecture : 
+
+https://github.com/acdlite/react-fiber-architecture
+
+
+
+# Why react is fast ?
+- it has efficient DOM manipulation, it has virtual DOM, it has diff algorithms, it can found out the difference and update it.
+- it has reconciliation algorithm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
