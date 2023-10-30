@@ -1,7 +1,6 @@
 const resList = [
     {
-       data:
-       { 
+       data: { 
         name : "KFC",
         id : 1,
         Cuisines : ["Burgers", "Biryani", "American"],
@@ -37,6 +36,16 @@ const resList = [
         data: {
         name : "China Town",
         id : 4,
+        Cuisines : ["Burgers", "chowmein", "dosa"],
+        imgSrc : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBMMMvfqkJnmAUw2ffxy-psKlBVMTMyyyK4g&usqp=CAU",
+        costForTwo: 3000,
+        avgRating: "4.8",
+        deliveryTime : 36
+    }},
+    {
+        data: {
+        name : "Moti Mehal",
+        id : 5,
         Cuisines : ["Burgers", "chowmein", "dosa"],
         imgSrc : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBMMMvfqkJnmAUw2ffxy-psKlBVMTMyyyK4g&usqp=CAU",
         costForTwo: 3000,

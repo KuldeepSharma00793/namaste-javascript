@@ -20,7 +20,7 @@ Eg: export default funcitonName;
 we can do export default only once in a single file.
 
 - second type is named export
-Eg: just write export befoer any constant or variable to export multiple things from same file  
+Eg: just write export before any constant or variable to export multiple things from same file  
 To import it, wrap it inside curly braces while import :
 
 - import {LOGO_URL} from '../utils/constants';
