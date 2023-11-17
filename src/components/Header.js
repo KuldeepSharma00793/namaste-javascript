@@ -3,13 +3,12 @@ import {useState, useEffect} from "react";
 import { Link } from 'react-router-dom';
 
 const Header = ()=>{
-    const [btnNameReact, setBtnNameReact] = useState("Login");
-    console.log('Header called');
+    let [btnNameReact, setbtnNameReact] = useState("Login");
 
     useEffect(()=>{
-        console.log('UseEffect called in header');
-    });
- 
+        console.log("useEffect Called in Header");
+    },[btnNameReact]);
+
     return (
         <div className="header">
             <div className="logo-container">
@@ -22,9 +21,10 @@ const Header = ()=>{
                         </li>
                     <li><Link to="/contact">Contact Us</Link></li>
                     <li>Cart</li>
-                    <button className='login' onClick={()=>{
-                        btnNameReact === "Login"? setBtnNameReact("LogOut") : setBtnNameReact('Login');
-                    }}>{btnNameReact}</button>
+                 <button className="login" onClick={()=>{
+                    btnNameReact === "Login"? setbtnNameReact("Logout") : setbtnNameReact("Login");
+                    console.log(btnNameReact);
+                 }}>{btnNameReact}</button>
                 </ul>
             </div>
         </div>
