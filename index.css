@@ -82,3 +82,11 @@ h3{
 .filter{
     display: flex;
 }
+
+/* User Card CSS Starts */
+
+.user-card{
+    border: 1px solid;
+    padding : 10px;
+}
+/* User Card CSS Ends */
